@@ -1,5 +1,11 @@
 package main
 
+import (
+	"encoding/json"
+	"log"
+	"os"
+)
+
 func main() {
 	data := struct {
 		Message string `json:"message"`
